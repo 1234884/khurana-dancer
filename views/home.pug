@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+    script(src='../static/index.js')
+block style
+         style
+            include ../static/style.css
+block content
+   
+    section#introSection
+        div Welcome to khurana Dance academy
+        div Best dance academy
+    section#missionSection
+        h3 our mission
+        div.card
+         h3 Dance Perfection
+            div.card-box
+            div.card-img
+                img(src="static/jadoo2.png")
+            div.card-content
+                p This is the best dance academy in this universe
+        div.card
+         h3 FreeStyle Dance
+            div.card-box
+            div.card-img
+                img(src="static/jadoo3.jpg")
+            div.card-content
+                p This is the best dance academy in this universe
+        div.card
+         h3 Expert Teaching
+            div.card-box
+            div.card-img
+                img(src="static/jado1.jpg")
+            div.card-content
+                p This is the best dance academy in this universe
+    section#sponsorsSection
+        h3 Award winning dancers
+        div#sponsors
+            img(src="static/jadoo2.png" class="jugad")
+            img(src="static/jadoo2.png" class="jugad")
+            img(src="static/jadoo2.png" class="jugad")
+            img(src="static/jadoo2.png" class="jugad")

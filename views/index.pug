@@ -1,0 +1,55 @@
+doctype html
+html
+ head 
+  style
+   include ../static/style.css
+ body
+  nav#navbar
+    ul 
+        div#logo
+            img(src="static/jadoo3.jpg")
+            |   khurana academy   
+    li #[a(href="/") Home]
+    li #[a(href="/") About]
+    li #[a(href="/") Services]
+    li #[a(href="/") ClassInfo] 
+    li #[a(href="/") Contact us]
+  section#introSection
+    div Welcome to khurana Dance academy
+    div Best dance academy
+  section#missionSection
+    h3 our mission
+    div.card
+        h3 Dance Perfection
+        div.card-box
+            div.card-img
+                img(src="static/jadoo2.png")
+            div.card-content
+                p This is the best dance academy in this universe
+    div.card
+        h3 FreeStyle Dance
+        div.card-box
+            div.card-img
+                img(src="static/jadoo3.jpg")
+            div.card-content
+                p This is the best dance academy in this universe
+    div.card
+        h3 Expert Teaching
+        div.card-box
+            div.card-img
+                img(src="static/jado1.jpg")
+            div.card-content
+                p This is the best dance academy in this universe
+  section#sponsorsSection
+    h3 our sponsors
+    div#sponsors
+        img(src="static/pngguru.com.png" class="jugad")
+        img(src="static/hiclipart.com.png" class="jugad")
+        img(src="static/pngguru.com (1).png" class="jugad")
+        img(src="static/toppng.com-logo-fb-png-blanco-logo-de-facebook-para-tarjetas-800x800.png" class="jugad")
+  footer#footer
+    | Copyright © 2020 KhuranaDanceAcademy.com all rights | reserved  
+
+  script 
+   include ../static/index.js
+   
